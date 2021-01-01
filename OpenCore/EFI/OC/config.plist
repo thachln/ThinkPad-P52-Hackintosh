@@ -818,8 +818,6 @@
 				<data>mz4AAA==</data>
 				<key>framebuffer-patch-enable</key>
 				<data>AQAAAA==</data>
-				<key>enable-hdmi20</key>
-				<data>AQAAAA==</data>
 				<key>framebuffer-stolenmem</key>
 				<data>AAAwAQ==</data>
 				<key>framebuffer-fbmem</key>
@@ -1351,7 +1349,7 @@
 			<key>DisplayLevel</key>
 			<integer>2147483650</integer>
 			<key>SysReport</key>
-			<false/>
+			<true/>
 			<key>Target</key>
 			<integer>67</integer>
 		</dict>
@@ -1695,6 +1693,7 @@
 		<array>
 			<string>OpenRuntime.efi</string>
 			<string>HfsPlus.efi</string>
+			<string>NvmExpressDxe.efi</string>
 		</array>
 		<key>Input</key>
 		<dict>
